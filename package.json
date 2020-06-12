@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "migrate": "./node_modules/.bin/migrate up -d mongodb://localhost/chat-assignment",
+    "start": "nodemon ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "migrate-mongoose": "^4.0.0",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
